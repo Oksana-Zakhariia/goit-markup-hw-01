@@ -1,0 +1,31 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+.page {
+    background-color: #E5E5E5;
+}
+.list {
+    list-style: none;
+    color: var(--title-text-color);
+
+    
+}
+/* Site navigation*/
+.site-nav list {
+    color: var(--title-text-color);
+}
+.site-nav .link :hover, 
+.site-nav .link :focus{
+    color:var(--accent-color) ;
+}
+.section-title, .section-subtitle {
+    color: var(--title-text-color);
+    }
+/* кольори: основний колір абзаців #757575
+/* колір заголовків #212121
+/* білий колір тексту #FFFFFF
+/* білий колір в футері rgba(255, 255, 255, 0.6)
+/* колір активностей #2196F3
