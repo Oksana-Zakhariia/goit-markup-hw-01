@@ -2,29 +2,53 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --white-color-text: #FFFFFF;
+    --main-background-color:#E5E5E5 ;
 }
+
 
 body {
     color: var(--primary-text-color);
-    background-color: #E5E5E5;
-    font-family:;
+    background-color: var(--main-background-color);
+   }
     
-}
 /* Site navigation*/
+.site-header{
+    background-color:var(--white-color-text);
+}
 .logo {
 text-decoration-line: none;
+color: #212121;
 }
-.site-nav list{color: var(--title-text-color);
-    text-decoration: none;
-    text-decoration-line: none;
+.logo-first{
+    color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus{
 
 }
-.site-nav.link {
+.site-nav-list {
+    color: var(--title-text-color);
+    list-style: none;
+    text-decoration-line: none;
+}
+ .site-nav-link {
     color: var(--title-text-color);
     text-decoration: none;
+    text-decoration-line: none;
+}
+.site-nav-link:hover, 
+.site-nav-link:focus{
+    color: var(--accent-color);
 }
 .site-header-contacts list{
     color: var(--primary-text-color);
+    list-style: none;
+}
+.site-header-contacts{
+    color: var(--primary-text-color);
+    text-decoration-line: none;
+    list-style: none;
 }
 .site-header-contacts:hover,
 .site-header-contacts:focus {
@@ -33,8 +57,3 @@ text-decoration-line: none;
 .section-title, .section-subtitle {
     color: var(--title-text-color);
     }
-/* кольори: основний колір абзаців #757575
-/* колір заголовків #212121
-/* білий колір тексту #FFFFFF
-/* білий колір в футері rgba(255, 255, 255, 0.6)
-/* колір активностей #2196F3
