@@ -4,6 +4,7 @@
     --accent-color:#2196F3;
     --white-color-text: #FFFFFF;
     --main-background-color:#E5E5E5 ;
+    --dark-bacground-color:#2F303A ;
 }
 
 
@@ -52,8 +53,87 @@ color: #212121;
 }
 .site-header-contacts:hover,
 .site-header-contacts:focus {
-    color: #2196F3;
+    color:var(--accent-color);
 }
-.section-title, .section-subtitle {
+/* main*/
+
+.site-hero {
+background-color:var(--dark-bacground-color);
+}
+.site-hero-title{color: var(--white-color-text);
+
+}
+.site-hero-button {
+    color: var(--white-color-text);
+    background-color: #2196F3;
+}
+.site-hero-button:hover,
+.site-hero-button:focus{
+
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.main-text-list{
+    list-style: none;
+}
+.section-subtitle {
     color: var(--title-text-color);
     }
+.text{
+
+}
+.work-list{
+    list-style: none;
+}
+.team-list{
+    list-style: none;
+}
+.name {
+    color: var(--title-text-color);
+}
+/*footer*/
+.footer{
+
+    background-color: var(--dark-bacground-color);
+}
+.footer>.logo { color: var(--white-color-text);}
+.contacts{
+
+}
+.contacts-list {
+list-style: none;
+text-decoration: none;
+text-decoration-line: none;
+
+}
+.address{
+    color: var(--white-color-text);
+    text-decoration-line:none;
+}
+.footer-contact{
+    text-decoration-line: none;
+    color: var(--primary-text-color);
+    text-decoration-line :none;
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent-color);
+}
+
+/*portfolio main*/
+.portfolio-main{
+    background-color: var(--main-background-color);
+}
+.project-list{
+    list-style: none;
+}
+.button-list{
+list-style: none;
+}
+.button {
+
+}
+.project-title{
+color: var(--title-text-color);
+}
