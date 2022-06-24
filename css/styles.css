@@ -4,22 +4,31 @@
     --accent-color:#2196F3;
 }
 
-.page {
+body {
+    color: var(--primary-text-color);
     background-color: #E5E5E5;
-}
-.list {
-    list-style: none;
-    color: var(--title-text-color);
-
+    font-family:;
     
 }
 /* Site navigation*/
-.site-nav list {
-    color: var(--title-text-color);
+.logo {
+text-decoration-line: none;
 }
-.site-nav .link :hover, 
-.site-nav .link :focus{
-    color:var(--accent-color) ;
+.site-nav list{color: var(--title-text-color);
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+.site-nav.link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.site-header-contacts list{
+    color: var(--primary-text-color);
+}
+.site-header-contacts:hover,
+.site-header-contacts:focus {
+    color: #2196F3;
 }
 .section-title, .section-subtitle {
     color: var(--title-text-color);
